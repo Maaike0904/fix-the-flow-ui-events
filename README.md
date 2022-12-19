@@ -6,12 +6,18 @@
 ## Beschrijving
 Ik heb met behulp van Javascript en CSS 10 verschillende animaties op buttons toegepast.
 
-<!-- Bekijk hier:  🌐-->
+Bekijk hier: http://maaike0904-fix-the-flow-ui-events.student.fdnd.nl/
 
 ## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
+Javascript
+* document.querySelector
+* .addEventListener
+* classList.toggle
 
+CSS
+* animation-name
+* animation-duration
+* @keyframes
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
