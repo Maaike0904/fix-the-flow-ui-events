@@ -46,14 +46,6 @@ function shake() {
 schudden.classList.toggle('shake')
 }
 
-// schudden.addEventListener("keydown", checkKeyPressed, false);
-
-// function checkKeyPressed(d) {
-// 	if (d.keyCode === 64) {
-// 		alert("The 'd' key is pressed.");
-//   schudden.classList.toggle('shake')
-// 	}
-
 // Regenboog verschijnt - Sprint 5
 let regenboog = document.querySelector('a:nth-of-type(5)')
 
@@ -74,14 +66,14 @@ function larger() {
 groter.classList.toggle('larger')
 }
 
-// Ripple effect - The
-let rippleEffect = document.querySelector('a:nth-of-type(7)')
+// Links naar rechts - The
+let linksrechtsEffect = document.querySelector('a:nth-of-type(7)')
 
-rippleEffect.addEventListener('click', ripple)
-rippleEffect.addEventListener('animationed', ripple)
+linksrechtsEffect.addEventListener('click', wiggle)
+linksrechtsEffect.addEventListener('animationed', wiggle)
 
-function ripple() {
-rippleEffect.classList.toggle('ripple')
+function wiggle() {
+linksrechtsEffect.classList.toggle('wiggle')
 }
 
 // Ronde button - Flow
@@ -94,23 +86,23 @@ function rond() {
 rondeButton.classList.toggle('rond')
 }
 
-// Bubbels - User
-let bubbels = document.querySelector('a:nth-of-type(9)')
+// Knipperen - User
+let knipperen = document.querySelector('a:nth-of-type(9)')
 
-bubbels.addEventListener('click', bubbles)
-bubbels.addEventListener('animationed', bubbles)
+knipperen.addEventListener('click', blink)
+knipperen.addEventListener('animationed', blink)
 
-function bubbles() {
-bubbels.classList.toggle('bubbles')
+function blink() {
+knipperen.classList.toggle('blink')
 }
 
-// Blurry - Interface
-let wazig = document.querySelector('a:nth-of-type(10)')
+// Achtergrondkleur veranderd - Interface
+let background = document.querySelector('a:nth-of-type(10)')
 
-wazig.addEventListener('click', blurry)
-wazig.addEventListener('animationed', blurry)
+background.addEventListener('click', change)
+background.addEventListener('animationed', change)
 
-function blurry() {
-wazig.classList.toggle('blurry')
+function change() {
+background.classList.toggle('change')
 }
 
