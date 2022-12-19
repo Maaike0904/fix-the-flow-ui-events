@@ -6,7 +6,7 @@
 ## Beschrijving
 Ik heb met behulp van Javascript en CSS 10 verschillende animaties op buttons toegepast.
 
-Bekijk hier: http://maaike0904-fix-the-flow-ui-events.student.fdnd.nl/
+Aanschouw het hier: http://maaike0904-fix-the-flow-ui-events.student.fdnd.nl/
 
 ## Experimenten
 Javascript
